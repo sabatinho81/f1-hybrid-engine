@@ -438,3 +438,4 @@ else:
                         wcc_df.index += 1
                         wcc_df["Projected Haul"] = wcc_df["Projected Haul"].apply(lambda x: f"+{x:.1f}")
                         st.dataframe(wcc_df, use_container_width=True)
+#test
