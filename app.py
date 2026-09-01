@@ -169,7 +169,7 @@ def load_and_train_model():
         y_train = df["podium"]
 
         model = xgb.XGBClassifier(
-            n_estimators=100, 
+            n_estimators=150, 
             learning_rate=0.03, 
             max_depth=3, 
             objective="binary:logistic",
